@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[RegressionSuite --> Started..]]>
+    </line>
+    <line>
+      <![CDATA[TestInFirefox block Started..]]>
+    </line>
+    <line>
+      <![CDATA[testValidLogin --> script Started..]]>
+    </line>
+    <line>
+      <![CDATA[testValidLogin --> script Passed..]]>
+    </line>
+    <line>
+      <![CDATA[testInvalidLogin --> script Started..]]>
+    </line>
+    <line>
+      <![CDATA[testInvalidLogin --> script Passed..]]>
+    </line>
+    <line>
+      <![CDATA[TestInFirefox block Finished..]]>
+    </line>
+    <line>
+      <![CDATA[TestInChrome block Started..]]>
+    </line>
+    <line>
+      <![CDATA[testValidLogin --> script Started..]]>
+    </line>
+    <line>
+      <![CDATA[testValidLogin --> script Passed..]]>
+    </line>
+    <line>
+      <![CDATA[testInvalidLogin --> script Started..]]>
+    </line>
+    <line>
+      <![CDATA[testInvalidLogin --> script Passed..]]>
+    </line>
+  </reporter-output>
+  <suite name="RegressionSuite" duration-ms="43755" started-at="2019-02-13T10:38:57Z" finished-at="2019-02-13T10:39:40Z">
+    <groups>
+    </groups>
+    <test name="TestInFirefox" duration-ms="25955" started-at="2019-02-13T10:38:57Z" finished-at="2019-02-13T10:39:23Z">
+      <class name="scripts.TestValidLogin">
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:scripts.TestValidLogin@4f7d0008]" name="openApplication" is-config="true" duration-ms="8986" started-at="2019-02-13T10:38:57Z" finished-at="2019-02-13T10:39:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testValidLogin()[pri:0, instance:scripts.TestValidLogin@4f7d0008]" name="testValidLogin" duration-ms="3205" started-at="2019-02-13T10:39:06Z" finished-at="2019-02-13T10:39:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[testValidLogin --> script Started..]]>
+            </line>
+            <line>
+              <![CDATA[testValidLogin --> script Passed..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.TestValidLogin@4f7d0008]" name="closeApplication" is-config="true" duration-ms="150" started-at="2019-02-13T10:39:09Z" finished-at="2019-02-13T10:39:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=TestValidLogin.testValidLogin()[pri:0, instance:scripts.TestValidLogin@4f7d0008] output=testValidLogin --> script Started..]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.TestValidLogin -->
+      <class name="scripts.TestInvalidLogin">
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:scripts.TestInvalidLogin@271053e1]" name="openApplication" is-config="true" duration-ms="6744" started-at="2019-02-13T10:39:09Z" finished-at="2019-02-13T10:39:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:0, instance:scripts.TestInvalidLogin@271053e1]" name="testInvalidLogin" duration-ms="6657" started-at="2019-02-13T10:39:16Z" finished-at="2019-02-13T10:39:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[testInvalidLogin --> script Started..]]>
+            </line>
+            <line>
+              <![CDATA[testInvalidLogin --> script Passed..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.TestInvalidLogin@271053e1]" name="closeApplication" is-config="true" duration-ms="151" started-at="2019-02-13T10:39:22Z" finished-at="2019-02-13T10:39:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=TestInvalidLogin.testInvalidLogin()[pri:0, instance:scripts.TestInvalidLogin@271053e1] output=testInvalidLogin --> script Started..]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.TestInvalidLogin -->
+    </test> <!-- TestInFirefox -->
+    <test name="TestInChrome" duration-ms="17761" started-at="2019-02-13T10:39:23Z" finished-at="2019-02-13T10:39:40Z">
+      <class name="scripts.TestValidLogin">
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:scripts.TestValidLogin@5649fd9b]" name="openApplication" is-config="true" duration-ms="5720" started-at="2019-02-13T10:39:23Z" finished-at="2019-02-13T10:39:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testValidLogin()[pri:0, instance:scripts.TestValidLogin@5649fd9b]" name="testValidLogin" duration-ms="2168" started-at="2019-02-13T10:39:28Z" finished-at="2019-02-13T10:39:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[testValidLogin --> script Started..]]>
+            </line>
+            <line>
+              <![CDATA[testValidLogin --> script Passed..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.TestValidLogin@5649fd9b]" name="closeApplication" is-config="true" duration-ms="2330" started-at="2019-02-13T10:39:30Z" finished-at="2019-02-13T10:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=TestValidLogin.testValidLogin()[pri:0, instance:scripts.TestValidLogin@5649fd9b] output=testValidLogin --> script Started..]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.TestValidLogin -->
+      <class name="scripts.TestInvalidLogin">
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:scripts.TestInvalidLogin@6adede5]" name="openApplication" is-config="true" duration-ms="3978" started-at="2019-02-13T10:39:33Z" finished-at="2019-02-13T10:39:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:0, instance:scripts.TestInvalidLogin@6adede5]" name="testInvalidLogin" duration-ms="3385" started-at="2019-02-13T10:39:37Z" finished-at="2019-02-13T10:39:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[testInvalidLogin --> script Started..]]>
+            </line>
+            <line>
+              <![CDATA[testInvalidLogin --> script Passed..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.TestInvalidLogin@6adede5]" name="closeApplication" is-config="true" duration-ms="170" started-at="2019-02-13T10:39:40Z" finished-at="2019-02-13T10:39:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=TestInvalidLogin.testInvalidLogin()[pri:0, instance:scripts.TestInvalidLogin@6adede5] output=testInvalidLogin --> script Started..]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.TestInvalidLogin -->
+    </test> <!-- TestInChrome -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
